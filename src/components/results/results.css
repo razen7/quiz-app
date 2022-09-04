@@ -1,0 +1,20 @@
+.results-container {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+button {
+    background-color: #cfbfaf;
+    border-radius: 12px;
+    padding: 8px;
+    font-weight: bold;
+    transition: all 1s;
+}
+
+button:hover {
+    background-color: #a99d92;
+}
